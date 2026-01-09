@@ -1,0 +1,4 @@
+slack-sdk
+jinja2
+python-dotenv
+schedule==1.2.2

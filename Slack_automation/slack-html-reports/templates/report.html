@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .card { background: #f4f4f4; padding: 15px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <p>Generated at: {{ date }}</p>
+
+    {% for key, value in data.items() %}
+    <div class="card">
+        <strong>{{ key }}</strong>: {{ value }}
+    </div>
+    {% endfor %}
+</body>
+</html>
